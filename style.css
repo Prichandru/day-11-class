@@ -1,0 +1,15 @@
+/* .overflow-visible{
+    background-color: blueviolet;
+    height: 200px;
+    width:50%;
+    border: 2px solid red;
+    overflow: visible;
+} */
+.overflow-hidden{
+    background-color: aqua;
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid red;
+    overflow: hidden;
+}
