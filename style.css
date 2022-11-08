@@ -1,3 +1,7 @@
+/* overflow properties */
+
+/* content more than the specified ht and width will be overlapped with next section
+ */
 /* .overflow-visible{
     background-color: blueviolet;
     height: 200px;
@@ -12,4 +16,22 @@
     padding: 10px;
     border: 2px solid red;
     overflow: hidden;
+}
+.overflow-scroll{
+    background-color: rgb(48, 236, 158);
+    height: 300px;
+    width:50%;
+    padding: 10px;
+    border: 2px solid red;
+    overflow: scroll;
+
+}
+/* scroll bar is added only when neccessary */
+.overflow-auto{
+    background-color: rgb(43, 235, 75);
+    height: 300px;
+    width: 75%;
+    padding: 10px;
+    border: 2px solid red;
+    overflow: auto;
 }
